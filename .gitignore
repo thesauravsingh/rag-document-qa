@@ -1,0 +1,30 @@
+# Secrets and local config
+.env
+.env.*
+!.env.example
+.claude/settings.local.json
+*.local.md
+*.pem
+*.key
+*.p8
+*.p12
+client_secret*.json
+token*.json
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Logs and OS files
+*.log
+*.err
+.DS_Store
+
+# Personal Claude instructions (kept local)
+CLAUDE.md
+
+# Downloaded document corpus (never committed)
+/corpus/
